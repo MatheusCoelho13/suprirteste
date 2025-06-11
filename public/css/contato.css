@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  background-color: #030303;
+
+}
+
+/*!buttons */
+button {
+  /* background-color: #25d366; Cor do WhatsApp */
+  color: white;
+
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#whats {
+  position: relative;
+  left: 5px;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  background-image: url(../assets/icons/whatsapp.png);
+  background-repeat: no-repeat;
+}
+
+/*! Logo*/
+#logo {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 30px;
+}
+
+/*!Menu*/
+/*Todo- arrumar o submenus ate hj*/
+
+.navbar {
+  position: relative;
+  bottom: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #030303;
+  border-bottom: 1px solid #030303;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .logo span {
+  color: orange;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: orange;
+}
+
+.navbar .icons {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .icons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar .icons a:hover {
+  color: orange;
+}
+
+.dropdown-content {
+
+  display: none !important;
+  /* Esconde o submenu inicialmente */
+  position: absolute;
+  top: 100%;
+  /* Coloca o submenu logo abaixo do pai */
+  left: 0;
+  background-color: #030303;
+  border: 1px solid #030303;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  list-style: none;
+  z-index: 1000;
+  /* Garante que o submenu fique acima de outros elementos */
+  min-width: 150px;
+  /* Define uma largura mÃ­nima */
+}
+
+.dropdown-content li {
+
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.dropdown-content li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover {
+  opacity: 1;
+}
+
+.dropdown-content li a:hover {
+  display: flex;
+  color: orange;
+  background-color: #030303;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block !important;
+  /* Mostra o submenu ao passar o mouse */
+}
+
+/*! TEXTO*/
+#contato_h1 {
+  display: flex;
+  color: #F6AF03;
+  position: relative;
+  align-items: center;
+  left: 1100px;
+  top: -15px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*!parte do menu */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 90%;
+  height: 920PX;
+  max-width: 1200px;
+  background-color: #1a1a1a;
+  /* Fundo cinza escuro */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-info {
+  background-color: #002d57;
+  /* Azul escuro */
+  color: white;
+  padding: 40px;
+  width: 40%;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  margin-right: 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.contact-form {
+  padding: 40px;
+  width: 75%;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+  /* EspaÃ§amento entre os elementos */
+  align-items: center;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.contact-form .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-form .field {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-form .field:last-child {
+  margin-right: 0;
+}
+
+.contact-form label {
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  position: relative;
+
+  color: #fff;
+  /* Texto branco */
+}
+
+.contact-form input {
+width: 336px;
+  padding: 10px;
+  border: 1px solid #555;
+  /* Borda cinza escuro */
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #333;
+  /* Fundo cinza escuro */
+  color: #fff;
+  /* Texto branco */
+
+}
+.address-row{
+ margin-right: 30px;
+}
+#cep{
+  width: 35%;
+  position: relative;
+  right: 100px;
+}
+
+#textarea_label {
+  position: relative;
+  left: 90px;
+}
+.field .large{
+  position: relative;
+  left: 70px;
+}
+.field-small{
+  position: relative;
+  left: 100px;
+}
+#file-upload {
+  width: 300px;
+  height: 150px;
+  border: 2px #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background: #222;
+  margin: auto;
+}
+
+.contact-form textarea {
+  width: 300px;
+  height: 150px;
+  border: 2px #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background: #222;
+  margin: auto;
+}
+
+.contact-form .options label {
+  margin-right: 125px;
+  font-size: 0.9em;
+  color: #fff;
+  width: 30px;
+}
+
+.contact-form button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+}
+select {
+  width: 45%;
+    background-color: #333;       /* fundo escuro */
+    color: white;                 /* texto branco */
+    border: 1px solid #555;       /* borda discreta cinza */
+    border-radius: 8px;           /* cantos arredondados */
+    padding: 10px 12px;           /* espaço interno confortável */
+    font-size: 16px;              /* tamanho da fonte */
+    appearance: none;             /* remove estilo nativo */
+    outline: none;                /* remove contorno ao focar */
+}
+.ph ph-chat-text {
+  width: 30px;
+}
+
+.contact-form button:hover {
+  background-color: #0066cc;
+  /* Azul mais claro */
+}
+/* .contact-form input {
+  width: 75%;
+} */
+#upload-container {
+  width: 300px;
+  height: 150px;
+  border: 2px dashed #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background: #222;
+  margin: auto;
+  border-radius: 8px;
+  top: 40px;
+  left: -80px;
+}
+
+#upload-container input[type="file"] {
+opacity: 0; /* Esconde o botão de arquivo original */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+  /* Esconde completamente o input */
+}
+#removeFile{
+  position:relative;
+  left: 30px;
+  right: 130px;
+  top: 30px;
+}
+#upload-container.file-selected::before {
+    content: ''; /* Remove o texto após selecionar */
+}
+#upload-container::before {
+    content: 'Escolher Arquivo';
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#upload-container span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#upload-p {
+  position: relative;
+  top:45px;
+  left: 120px;
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+  /* Texto branco */
+
+}
+#cep-div{
+  position: relative;
+  /* left: 100px;  anteriorior 29/04*/
+  left: 150px;
+  /* top: -30px; */
+  top: -5px;
+
+
+}
+#cep-div label{
+  position: relative;
+right:100px
+ 
+}
+#numero-div{
+  position: relative;
+  left: 372px;
+  top: -140px;
+}
+#rua-div{
+  position: relative;
+  top: 15px;
+}
+/* #rua-div input{
+  width: 46%;
+} */
+#comp-div{
+  position: relative;
+  left: 372px;
+  top: -122px;
+}
+#bairro-div{
+  position: relative;
+bottom:109px;
+}
+#cidade-div{
+  position: relative;
+  bottom:175px;
+  left: 372px;
+}
+#estado-div{
+  bottom:170px;
+  position: relative;
+}
+.row label{
+    font-family: "Poppins", serif;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  position: relative;
+
+  color: #fff;
+  /* Texto branco */
+}
+.row-servicos{
+  position: relative;
+  bottom:236px;
+  left: 372px;
+}
+.row-lugar{
+  position: relative;
+bottom:220px;
+left:235px
+}
+.row1{
+  position: relative;
+  bottom:236px;
+  left:80px
+}
+.row{
+  z-index: 100000;
+  position: relative;
+
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+    /* Ajusta o tamanho geral do texto */
+  }
+
+  /* Navbar Responsiva */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .navbar ul li a {
+    font-size: 1em;
+    /* Ajusta o tamanho do texto */
+    padding: 10px 0;
+    /* Maior Ã¡rea clicÃ¡vel */
+    width: 100%;
+  }
+
+  .navbar .icons {
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* ContÃªiner Responsivo */
+  .container {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .contact-form .field {
+    flex: 1;
+    margin-right: 5px;
+  }
+
+
+  /* Contact Info */
+  .contact-info {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    /* Centraliza o conteÃºdo */
+  }
+
+  #p_contact {
+    font-size: 0.8em;
+    width: 90%;
+  }
+
+  .contact-info ul {
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  /* FormulÃ¡rio Responsivo */
+  .contact-form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* EspaÃ§o entre os elementos */
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+
+    font-size: 1em;
+    /* Texto legÃ­vel */
+    margin-bottom: 15px;
+    /* EspaÃ§amento entre os campos */
+    margin-right: 30px;
+  }
+
+  /* .contact-form input[type="radio"]{
+    width: 50%;
+ 
+    
+  } */
+  .contact-form textarea {
+    height: 120px;
+    /* Altura ajustada */
+    position: relative;
+    top: 30px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    /* BotÃ£o ocupa a largura total */
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    right: 220px;
+    top: 32px;
+  }
+
+  .options label {
+    font-size: 1em;
+    /* Ajusta o tamanho do texto */
+    display: flex;
+  }
+
+  /* TÃ­tulos Ajustados */
+  #contato_h1 {
+    position: relative;
+    left: 110px;
+    top: 0;
+    text-align: center;
+    /* Centraliza o tÃ­tulo */
+    font-size: 1.5em;
+    /* Ajusta o tamanho do texto */
+  }
+
+  /* Submenu Responsivo */
+  .dropdown-content {
+    position: static;
+    /* Ajusta para manter o submenu visÃ­vel */
+    width: 100%;
+  }
+
+  .dropdown-content li {
+    width: 100%;
+  }
+
+  .dropdown-content li a {
+    padding: 10px 15px;
+    font-size: 1em;
+    text-align: left;
+    display: block;
+  }
+}

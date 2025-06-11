@@ -1,0 +1,467 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    margin: 0;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    gap: 50px;
+    position: relative;
+    left: 30px;
+    z-index: -10;
+}
+.menu-item.active a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu a {
+    z-index: 9000;
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+#card.card.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.menu a.ativo,
+.menu a:hover {
+    background-color: #ffffff;
+    color: #0b6ae7;
+}
+
+.sidebar {
+    width: 250px;
+    background: #555555;
+    color: white;
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    height: 820px;
+    position: relative;
+    bottom: 150px
+}
+
+.sidebar.active {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    margin: 15px 0;
+    padding: 10px;
+    background: #1E1E1E;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 10px;
+}
+
+.menu-item:hover,
+.active {
+    background: #2A2A2A;
+}
+
+.menu-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.profile {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    font-size: 14px;
+}
+
+#img-logo {
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+}
+
+.card i {
+    margin-right: 10px;
+    color: #E8B923;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Espaçamento entre os cartões */
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 1400px;
+}
+
+.card {
+    background: #1E2A38;
+    ;
+    color: #F1F1F1;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background: #253649;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+#check-button {
+    width: 13.3px;
+    position: relative;
+
+}
+
+.curriculo a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.curriculo a:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+
+
+.search-container {
+    position: relative;
+    width: 270px;
+    /* Largura do campo */
+    border: 1px solid #0056ff;
+    /* Cor da borda */
+    border-radius: 7px;
+    /* Bordas arredondadas */
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    left: 750px;
+    margin-bottom: 40px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    /* Espaço para o ícone no fundo */
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 4px;
+    /* Para combinar com o contêiner */
+    background-color: transparent;
+    text-align: center;
+}
+.search-container:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+.search-container input:focus:placeholder {
+    opacity: 0;
+}
+
+.search-container i {
+    position: absolute;
+    left: 10px;
+    /* Espaço do lado direito */
+    font-size: 24px;
+    /* Tamanho do ícone */
+    color: #fff;
+    pointer-events: none;
+    /* Ícone não interferirá no clique */
+}
+
+.modal {
+    /* display: none; */
+    position: relative;
+    left: 930px;
+    bottom: 950px;
+    width: 100%;
+    height: 1900px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.close-menuu {
+background-color: transparent;
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 90px;
+    left: 90px;
+}
+.hamburger {
+    background-color: transparent;
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    bottom: 80px
+}
+/* Estiliza a caixa de pesquisa */
+#pesquisa-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Campo de pesquisa */
+#pesquisa {
+    width: 270px;
+    max-width: 400px;
+    padding: 12px 15px;
+    font-size: 16px;
+
+  background-color:transparent;
+    color: #fff;
+}
+
+/* Placeholder estilizado */
+#pesquisa::placeholder {
+    color: #bbb;
+}
+
+/* Efeito ao focar */
+.resultados_div{
+position: fixed;
+width: 270px;
+    left: 770px;
+    z-index: 120000;
+}
+/* Estiliza a lista de resultados */
+#resultados {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+
+}
+
+/* Cada item da lista */
+#resultados li {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#resultados a {
+    color:#ffff;
+    text-decoration: none;
+}
+#resultados a:hover {
+color:#E8B923
+}
+
+/* Último item sem borda */
+#resultados li:last-child {
+    border-bottom: none;
+}
+
+/* Efeito ao passar o mouse */
+/* #resultados li:hover {
+    background: #007bff;
+} */
+
+#loading {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .pagination {
+            position: relative;
+            top:500px;
+            left: 400px;
+        }
+
+        .pagination a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #ffff;
+        }
+
+        .pagination a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+/* Responsividade */
+@media (max-width: 500px) {
+    #pesquisa {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #resultados {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        left: 0;
+    }
+
+    .menu a {
+        width: auto;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+    }
+
+    .dashboard {
+        width: 100%;
+        left: 0;
+        top: 150px;
+        padding: 10px;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .search-container {
+        width: 90%;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .search-container input {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hamburger {
+        font-size: 24px;
+        bottom: 0;
+        left: 10px;
+    }
+
+    #img-logo {
+        width: 60px;
+        left: 0;
+    }
+
+    .modal {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .modal-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
