@@ -14,7 +14,7 @@
 	</style>
 
 	<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<link rel="canonical" href="https://suprirservicos.com/" />
+	<link rel="canonical" href="assets//" />
 	<meta property="og:locale" content="pt_PT" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Home - Suprir" />
@@ -23,7 +23,7 @@
 	<meta property="og:site_name" content="Suprir" />
 	<meta property="article:publisher" content="https://www.facebook.com/profile.php?id=61564358679086" />
 	<meta property="article:modified_time" content="2024-09-26T17:31:01+00:00" />
-	<meta property="og:image" content="https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-1024x1024.png" />
+	<meta property="og:image" content="./assets/2024/06/Untitled-12-1024x1024.png" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script type="application/ld+json" class="yoast-schema-graph">
@@ -46,7 +46,7 @@
 				"image": {
 					"@id": "https://suprirservicos.com/#primaryimage"
 				},
-				"thumbnailUrl": "https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-1024x1024.png",
+				"thumbnailUrl": "./assets/2024/06/Untitled-12-1024x1024.png",
 				"datePublished": "2024-06-20T19:48:45+00:00",
 				"dateModified": "2024-09-26T17:31:01+00:00",
 				"breadcrumb": {
@@ -61,8 +61,8 @@
 				"@type": "ImageObject",
 				"inLanguage": "pt-PT",
 				"@id": "https://suprirservicos.com/#primaryimage",
-				"url": "https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12.png",
-				"contentUrl": "https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12.png",
+				"url": "./assets/2024/06/Untitled-12.png",
+				"contentUrl": "./assets/2024/06/Untitled-12.png",
 				"width": 1080,
 				"height": 1080
 			}, {
@@ -104,8 +104,8 @@
 					"@type": "ImageObject",
 					"inLanguage": "pt-PT",
 					"@id": "https://suprirservicos.com/#/schema/logo/image/",
-					"url": "https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225.png",
-					"contentUrl": "https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225.png",
+					"url": "./assets/2024/06/cropped-4625436y542-e1718912933225.png",
+					"contentUrl": "./assets/2024/06/cropped-4625436y542-e1718912933225.png",
 					"width": 512,
 					"height": 512,
 					"caption": "Suprir"
@@ -122,8 +122,8 @@
 
 	<title>Home - Suprir</title>
 	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
-	<link rel="alternate" type="application/rss+xml" title="Suprir &raquo; Feed" href="https://suprirservicos.com/feed/" />
-	<link rel="alternate" type="application/rss+xml" title="Suprir &raquo; Feed de comentários" href="https://suprirservicos.com/comments/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="Suprir &raquo; Feed" href="assets//feed/" />
+	<link rel="alternate" type="application/rss+xml" title="Suprir &raquo; Feed de comentários" href="assets//comments/feed/" />
 	<script>
 		window._wpemojiSettings = {
 			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/",
@@ -3466,22 +3466,22 @@
 			}
 		}
 	</style>
-	<link rel='stylesheet' id='chaty-front-css-css' href='https://suprirservicos.com/wp-content/plugins/chaty/css/chaty-front.min.css?ver=3.4.11724079839' media='all' />
-	<link rel='stylesheet' id='elementor-frontend-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='elementor-post-5-css' href='https://suprirservicos.com/wp-content/uploads/elementor/css/post-5.css?ver=1734651572' media='all' />
-	<link rel='stylesheet' id='elementor-pro-css' href='https://suprirservicos.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.19.3' media='all' />
-	<link rel='stylesheet' id='widget-image-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='widget-heading-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='widget-text-editor-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='e-shapes-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='e-animation-fadeInRight-css' href='https://suprirservicos.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=3.29.0' media='all' />
-	<link rel='stylesheet' id='elementor-post-18-css' href='https://suprirservicos.com/wp-content/uploads/elementor/css/post-18.css?ver=1734651573' media='all' />
-	<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://suprirservicos.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742242392' media='all' />
-	<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://suprirservicos.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742242397' media='all' />
-	<link rel='stylesheet' id='elementor-gf-local-mavenpro-css' href='https://suprirservicos.com/wp-content/uploads/elementor/google-fonts/css/mavenpro.css?ver=1742242399' media='all' />
-	<link rel='stylesheet' id='elementor-gf-local-rubik-css' href='https://suprirservicos.com/wp-content/uploads/elementor/google-fonts/css/rubik.css?ver=1742242406' media='all' />
-	<script async src="https://suprirservicos.com/wp-content/plugins/burst-statistics/helpers/timeme/timeme.min.js?ver=1747856565" id="burst-timeme-js"></script>
+	<link rel='stylesheet' id='chaty-front-css-css' href='./assets/chaty-front.min.css?ver=3.4.11724079839' media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css' href='./assets/frontend.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='elementor-post-5-css' href='./assets/post-5.css?ver=1734651572' media='all' />
+	<link rel='stylesheet' id='elementor-pro-css' href='./assets/frontend.min.css?ver=3.19.3' media='all' />
+	<link rel='stylesheet' id='widget-image-css' href='./assets/widget-image.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='widget-heading-css' href='./assets/widget-heading.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='widget-text-editor-css' href='./assets/widget-text-editor.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='e-shapes-css' href='./assets/conditionals/shapes.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='./assets/fadeInLeft.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='e-animation-fadeInRight-css' href='./assets/fadeInRight.min.css?ver=3.29.0' media='all' />
+	<link rel='stylesheet' id='elementor-post-18-css' href='./assets/post-18.css?ver=1734651573' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='./assets/roboto.css?ver=1742242392' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='./assets/robotoslab.css?ver=1742242397' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-mavenpro-css' href='./assets/mavenpro.css?ver=1742242399' media='all' />
+	<link rel='stylesheet' id='elementor-gf-local-rubik-css' href='./assets/rubik.css?ver=1742242406' media='all' />
+	<script async src=".assets/timeme.min.js?ver=1747856565" id="burst-timeme-js"></script>
 	<script id="burst-js-extra">
 		var burst = {
 			"tracking": {
@@ -3527,9 +3527,9 @@
 			}
 		};
 	</script>
-	<script async src="https://suprirservicos.com/wp-content/plugins/burst-statistics/assets/js/build/burst.min.js?ver=1747856565" id="burst-js"></script>
-	<script src="https://suprirservicos.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-	<script src="https://suprirservicos.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script async src="./assets/burst.min.js?ver=1747856565" id="burst-js"></script>
+	<script src="./assets/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="./assets/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 	<script id="rmp_menu_scripts-js-extra">
 		var rmp_menu = {
 			"ajaxURL": "https:\/\/suprirservicos.com\/wp-admin\/admin-ajax.php",
@@ -3650,11 +3650,11 @@
 	</script>
 
 	<!-- End Google tag (gtag.js) snippet added by Site Kit -->
-	<link rel="https://api.w.org/" href="https://suprirservicos.com/wp-json/" />
-	<link rel="alternate" title="JSON" type="application/json" href="https://suprirservicos.com/wp-json/wp/v2/pages/18" />
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://suprirservicos.com/xmlrpc.php?rsd" />
-	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://suprirservicos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsuprirservicos.com%2F" />
-	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://suprirservicos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsuprirservicos.com%2F&#038;format=xml" />
+	<link rel="https://api.w.org/" href="assets//wp-json/" />
+	<link rel="alternate" title="JSON" type="application/json" href="assets//wp-json/wp/v2/pages/18" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="assets//xmlrpc.php?rsd" />
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="assets//wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsuprirservicos.com%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="assets//wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsuprirservicos.com%2F&#038;format=xml" />
 	<meta name="generator" content="Site Kit by Google 1.153.0" />
 	<meta name="google-site-verification" content="1QmnLeO3F5VSRptjjkdWjDmURYcOZ5TI8PwfUxeSfpc">
 	<meta name="generator" content="Elementor 3.29.0; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-swap">
@@ -3714,11 +3714,7 @@
 			src: url('https://suprirservicos.com/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');
 		}
 	</style>
-	<link rel="icon" href="https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225-32x32.png" sizes="32x32" />
-	<link rel="icon" href="https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225-192x192.png" sizes="192x192" />
-	<link rel="apple-touch-icon" href="https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225-180x180.png" />
-	<meta name="msapplication-TileImage" content="https://suprirservicos.com/wp-content/uploads/2024/06/cropped-4625436y542-e1718912933225-270x270.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
 </head>
 
 <body data-rsssl=1 class="home wp-singular page-template page-template-elementor_canvas page page-id-18 wp-embed-responsive wp-theme-twentytwentyfour elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
@@ -3728,7 +3724,7 @@
 				<div class="elementor-element elementor-element-6e01dc6a e-con-full e-flex e-con e-child" data-id="6e01dc6a" data-element_type="container">
 					<div class="elementor-element elementor-element-6cded36d elementor-widget elementor-widget-image" data-id="6cded36d" data-element_type="widget" data-widget_type="image.default">
 						<div class="elementor-widget-container">
-							<img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-1024x1024.png" class="attachment-large size-large wp-image-22" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-1024x1024.png 1024w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-300x300.png 300w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-150x150.png 150w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12-768x768.png 768w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-12.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+							<img fetchpriority="high" decoding="async" width="1024" height="1024" src="./assets/2024/06/Untitled-12-1024x1024.png" class="attachment-large size-large wp-image-22" alt="" srcset="./assets/2024/06/Untitled-12-1024x1024.png 1024w, ./assets/2024/06/Untitled-12-300x300.png 300w, ./assets/2024/06/Untitled-12-150x150.png 150w, ./assets/2024/06/Untitled-12-768x768.png 768w, ./assets/2024/06/Untitled-12.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
 						</div>
 					</div>
 				</div>
@@ -3820,7 +3816,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-256ae989 elementor-widget elementor-widget-image" data-id="256ae989" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img decoding="async" src="https://suprirservicos.com/wp-content/uploads/elementor/thumbs/4625436y542-e1718912933225-qpyb2nwh7oilxfg0rnfzqw7a4wjbwdk79txk8xmrb6.png" title="4625436y542" alt="4625436y542" loading="lazy" />
+												<img decoding="async" src="./assets/elementor/thumbs/4625436y542-e1718912933225-qpyb2nwh7oilxfg0rnfzqw7a4wjbwdk79txk8xmrb6.png" title="4625436y542" alt="4625436y542" loading="lazy" />
 											</div>
 										</div>
 									</div>
@@ -3890,16 +3886,16 @@
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<section class="elementor-section elementor-inner-section elementor-element elementor-element-3c15ab05 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c15ab05" data-element_type="section" id="cadmoveis">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7a6216d4 elementor-invisible" data-id="7a6216d4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7a6216d4 elementor" data-id="7a6216d4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-565d57d elementor-widget elementor-widget-image" data-id="565d57d" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img decoding="async" width="1024" height="1024" src="https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov-1024x1024.png" class="attachment-large size-large wp-image-82" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov-1024x1024.png 1024w, https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov-300x300.png 300w, https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov-150x150.png 150w, https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov-768x768.png 768w, https://suprirservicos.com/wp-content/uploads/2024/09/Cadimov.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+												<img decoding="async" width="1024" height="1024" src="./assets/Cadimov-1024x1024.png" class="attachment-large size-large wp-image-82" alt=""   sizes="(max-width: 1024px) 100vw, 1024px" />
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-5b1d78cf elementor-invisible" data-id="5b1d78cf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-5b1d78cf elementor" data-id="5b1d78cf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-48c2a079 elementor-widget elementor-widget-text-editor" data-id="48c2a079" data-element_type="widget" data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
@@ -3922,17 +3918,17 @@
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<section class="elementor-section elementor-inner-section elementor-element elementor-element-645135ae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="645135ae" data-element_type="section">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-23ad46cf elementor-invisible" data-id="23ad46cf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-23ad46cf elementor" data-id="23ad46cf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-67f48ade elementor-widget elementor-widget-image" data-id="67f48ade" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<a href="https://opinaapp.com/">
-													<img decoding="async" width="1024" height="1024" src="https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1-1024x1024.png" class="attachment-large size-large wp-image-27" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1-1024x1024.png 1024w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1-300x300.png 300w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1-150x150.png 150w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1-768x768.png 768w, https://suprirservicos.com/wp-content/uploads/2024/06/Untitled-1.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /> </a>
+													<img decoding="async" width="1024" height="1024" src="./assets/2024/06/Untitled-1-1024x1024.png" class="attachment-large size-large wp-image-27" alt="" srcset="./assets/2024/06/Untitled-1-1024x1024.png 1024w, ./assets/2024/06/Untitled-1-300x300.png 300w, ./assets/2024/06/Untitled-1-150x150.png 150w, ./assets/2024/06/Untitled-1-768x768.png 768w, ./assets/2024/06/Untitled-1.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /> </a>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-316f0a13 elementor-invisible" data-id="316f0a13" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-316f0a13 elementor" data-id="316f0a13" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-3aedebdc elementor-widget elementor-widget-text-editor" data-id="3aedebdc" data-element_type="widget" data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
@@ -3954,16 +3950,16 @@
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<section class="elementor-section elementor-inner-section elementor-element elementor-element-1ce8aecb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1ce8aecb" data-element_type="section" id="cidadeonline">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7936a4d2 elementor-invisible" data-id="7936a4d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7936a4d2 elementor" data-id="7936a4d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-f5abd05 elementor-widget elementor-widget-image" data-id="f5abd05" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="1024" height="1024" src="https://suprirservicos.com/wp-content/uploads/2024/09/Cidade-1024x1024.png" class="attachment-large size-large wp-image-83" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/09/Cidade-1024x1024.png 1024w, https://suprirservicos.com/wp-content/uploads/2024/09/Cidade-300x300.png 300w, https://suprirservicos.com/wp-content/uploads/2024/09/Cidade-150x150.png 150w, https://suprirservicos.com/wp-content/uploads/2024/09/Cidade-768x768.png 768w, https://suprirservicos.com/wp-content/uploads/2024/09/Cidade.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+												<img loading="lazy" decoding="async" width="1024" height="1024" src="./assets/2024/09/Cidade-1024x1024.png" class="attachment-large size-large wp-image-83" alt="" srcset="./assets/2024/09/Cidade-1024x1024.png 1024w, ./assets/2024/09/Cidade-300x300.png 300w, ./assets/2024/09/Cidade-150x150.png 150w, ./assets/2024/09/Cidade-768x768.png 768w, ./assets/2024/09/Cidade.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-66655d42 elementor-invisible" data-id="66655d42" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-66655d42 elementor" data-id="66655d42" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-121f3ab elementor-widget elementor-widget-text-editor" data-id="121f3ab" data-element_type="widget" data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
@@ -4001,16 +3997,16 @@
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<section class="elementor-section elementor-inner-section elementor-element elementor-element-96ba61e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="96ba61e" data-element_type="section" id="frotafacil">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-53c80186 elementor-invisible" data-id="53c80186" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-53c80186 elementor" data-id="53c80186" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-6eec777 elementor-widget elementor-widget-image" data-id="6eec777" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="1080" height="1080" src="https://suprirservicos.com/wp-content/uploads/2024/09/Frota.png" class="attachment-full size-full wp-image-84" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/09/Frota.png 1080w, https://suprirservicos.com/wp-content/uploads/2024/09/Frota-300x300.png 300w, https://suprirservicos.com/wp-content/uploads/2024/09/Frota-1024x1024.png 1024w, https://suprirservicos.com/wp-content/uploads/2024/09/Frota-150x150.png 150w, https://suprirservicos.com/wp-content/uploads/2024/09/Frota-768x768.png 768w" sizes="(max-width: 1080px) 100vw, 1080px" />
+												<img loading="lazy" decoding="async" width="1080" height="1080" src="./assets/2024/09/Frota.png" class="attachment-full size-full wp-image-84" alt="" srcset="./assets/2024/09/Frota.png 1080w, ./assets/2024/09/Frota-300x300.png 300w, ./assets/2024/09/Frota-1024x1024.png 1024w, ./assets/2024/09/Frota-150x150.png 150w, ./assets/2024/09/Frota-768x768.png 768w" sizes="(max-width: 1080px) 100vw, 1080px" />
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-6b78309b elementor-invisible" data-id="6b78309b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
+								<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-6b78309b elementor" data-id="6b78309b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-7d8d43ad elementor-widget elementor-widget-text-editor" data-id="7d8d43ad" data-element_type="widget" data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
@@ -4053,7 +4049,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-62fddd60 elementor-widget elementor-widget-image" data-id="62fddd60" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="768" height="825" src="https://suprirservicos.com/wp-content/uploads/2024/06/4625436y542-e1718912933225-768x825.png" class="attachment-medium_large size-medium_large wp-image-23" alt="" srcset="https://suprirservicos.com/wp-content/uploads/2024/06/4625436y542-e1718912933225-768x825.png 768w, https://suprirservicos.com/wp-content/uploads/2024/06/4625436y542-e1718912933225-279x300.png 279w, https://suprirservicos.com/wp-content/uploads/2024/06/4625436y542-e1718912933225-954x1024.png 954w, https://suprirservicos.com/wp-content/uploads/2024/06/4625436y542-e1718912933225.png 963w" sizes="(max-width: 768px) 100vw, 768px" />
+												<img loading="lazy" decoding="async" width="768" height="825" src="./assets/2024/06/4625436y542-e1718912933225-768x825.png" class="attachment-medium_large size-medium_large wp-image-23" alt="" srcset="./assets/2024/06/4625436y542-e1718912933225-768x825.png 768w, ./assets/2024/06/4625436y542-e1718912933225-279x300.png 279w, ./assets/2024/06/4625436y542-e1718912933225-954x1024.png 954w, ./assets/2024/06/4625436y542-e1718912933225.png 963w" sizes="(max-width: 768px) 100vw, 768px" />
 											</div>
 										</div>
 									</div>
@@ -4460,7 +4456,7 @@
 	<script src="https://suprirservicos.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
 	<script src="https://suprirservicos.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.0" id="elementor-webpack-runtime-js"></script>
 	<script src="https://suprirservicos.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.0" id="elementor-frontend-modules-js"></script>
-	<script src="https://suprirservicos.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+	<script src="./assets/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
 	<script id="elementor-frontend-js-before">
 		var elementorFrontendConfig = {
 			"environmentMode": {
