@@ -3746,10 +3746,10 @@
 
 		nav ul.menu {
 			list-style: none;
-    display: flex;
-    gap: 50px;
-    position: relative;
-    right: 30px;
+			display: flex;
+			gap: 50px;
+			position: relative;
+			right: 30px;
 		}
 
 		nav ul.menu li a {
@@ -3767,11 +3767,17 @@
 		nav ul.menu li a.ativo {
 			color: #ffc107;
 		}
-
 	</style>
 
 </head>
 <link rel="stylesheet" href="./public/css/main.css">
+<style>
+	.wp-image-22 {
+		position: relative;
+		top: 30px;
+		z-index: 10000;
+	}
+</style>
 
 <body data-rsssl=1 class="home wp-singular page-template page-template-elementor_canvas page page-id-18 wp-embed-responsive wp-theme-twentytwentyfour elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
 	<div data-elementor-type="wp-post" data-elementor-id="18" class="elementor elementor-18" data-elementor-post-type="page">
@@ -3780,28 +3786,28 @@
 				<div class="elementor-element elementor-element-6e01dc6a e-con-full e-flex e-con e-child" data-id="6e01dc6a" data-element_type="container">
 					<div class="elementor-element elementor-element-6cded36d elementor-widget elementor-widget-image" data-id="6cded36d" data-element_type="widget" data-widget_type="image.default">
 						<div class="elementor-widget-container">
-							<img fetchpriority="high" decoding="async" width="1024" height="1024" src="" class="attachment-large size-large wp-image-22" />
+							<img fetchpriority="high" decoding="async" width="204" height="204" src="./assets/suprir.png" class="attachment-large size-large wp-image-22" />
 						</div>
 					</div>
 				</div>
 				<!-- menu -->
 				<header>
-    <div class="container">
-        <div class="logo">
-            <img src="./assets/logoo.png" alt="Logo Suprir">
-         
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#servicos">Sobre Nós</a></li>
-                <li><a href="#">Soluções</a></li>
-                <li><a href="#elementor-form">Contato</a></li>
-                <li><a href="./public/contato.php" class="ativo">Trabalhe conosco</a></li>
-            </ul>
-        </nav>
-      
-    </div>
-</header>
+					<div class="container">
+						<div class="logo">
+
+
+						</div>
+						<nav>
+							<ul class="menu">
+								<li><a href="#servicos">Sobre Nós</a></li>
+								<li><a href="#">Soluções</a></li>
+								<li><a href="#elementor-form">Contato</a></li>
+								<li><a href="./public/contato.php" class="ativo">Trabalhe conosco</a></li>
+							</ul>
+						</nav>
+
+					</div>
+				</header>
 				<!-- <div class="elementor-element elementor-element-a9d822b e-con-full e-flex e-con e-child" data-id="a9d822b" data-element_type="container">
 					<div class="elementor-element elementor-element-4efc61d elementor-nav-menu__align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="4efc61d" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 						<div class="elementor-widget-container">
@@ -3883,7 +3889,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-256ae989 elementor-widget elementor-widget-image" data-id="256ae989" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img decoding="async" src="./assets/elementor/thumbs/4625436y542-e1718912933225-qpyb2nwh7oilxfg0rnfzqw7a4wjbwdk79txk8xmrb6.png" title="4625436y542" alt="4625436y542" loading="lazy" />
+												<img decoding="async" src="./assets/suprir.png" width="304" height="304" title="4625436y542" alt="4625436y542" loading="lazy" />
 											</div>
 										</div>
 									</div>
@@ -3990,7 +3996,7 @@
 										<div class="elementor-element elementor-element-67f48ade elementor-widget elementor-widget-image" data-id="67f48ade" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<a href="https://opinaapp.com/">
-													<img decoding="async" width="1024" height="1024" src="./assets/Cadimov-1024x1024.png" class="attachment-large size-large wp-image-27" /> </a>
+													<img decoding="async" width="1024" height="1024" src="./assets/opina.png" class="attachment-large size-large wp-image-27" /> </a>
 											</div>
 										</div>
 									</div>
@@ -4021,7 +4027,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-f5abd05 elementor-widget elementor-widget-image" data-id="f5abd05" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="1024" height="1024" src="./assets/2024/09/Cidade-1024x1024.png" class="attachment-large size-large wp-image-83" alt="" srcset="./assets/2024/09/Cidade-1024x1024.png 1024w, ./assets/2024/09/Cidade-300x300.png 300w, ./assets/2024/09/Cidade-150x150.png 150w, ./assets/2024/09/Cidade-768x768.png 768w, ./assets/2024/09/Cidade.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+												<img loading="lazy" decoding="async" width="1024" height="1024" src="./assets/Cidade-1024x1024.png" class="attachment-large size-large wp-image-83" sizes="(max-width: 1024px) 100vw, 1024px" />
 											</div>
 										</div>
 									</div>
@@ -4068,7 +4074,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-6eec777 elementor-widget elementor-widget-image" data-id="6eec777" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="1080" height="1080" src="./assets/2024/09/Frota.png" class="attachment-full size-full wp-image-84" alt="" srcset="./assets/2024/09/Frota.png 1080w, ./assets/2024/09/Frota-300x300.png 300w, ./assets/2024/09/Frota-1024x1024.png 1024w, ./assets/2024/09/Frota-150x150.png 150w, ./assets/2024/09/Frota-768x768.png 768w" sizes="(max-width: 1080px) 100vw, 1080px" />
+												<img loading="lazy" decoding="async" width="1080" height="1080" src="./assets/logofrota.png" class="attachment-full size-full wp-image-84" alt="" sizes="(max-width: 1080px) 100vw, 1080px" />
 											</div>
 										</div>
 									</div>
@@ -4116,7 +4122,8 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-62fddd60 elementor-widget elementor-widget-image" data-id="62fddd60" data-element_type="widget" data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="768" height="825" src="./assets/2024/06/4625436y542-e1718912933225-768x825.png" class="attachment-medium_large size-medium_large wp-image-23" alt="" srcset="./assets/2024/06/4625436y542-e1718912933225-768x825.png 768w, ./assets/2024/06/4625436y542-e1718912933225-279x300.png 279w, ./assets/2024/06/4625436y542-e1718912933225-954x1024.png 954w, ./assets/2024/06/4625436y542-e1718912933225.png 963w" sizes="(max-width: 768px) 100vw, 768px" />
+												<img fetchpriority="high" decoding="async" width="304" height="304" src="./assets/suprir.png" class=" " />
+
 											</div>
 										</div>
 									</div>
